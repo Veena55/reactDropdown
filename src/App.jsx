@@ -8,7 +8,7 @@ function App() {
     <>
       <div className="w-screen h-screen flex justify-center items-center bg-[#070736]">
         <div className="w-1/4">
-          <div className="bg-white flex items-center px-5 rounded-sm" onMouseOver={() => setDropdwon(!showDropdwon)}>
+          <div className="bg-white flex items-center px-5 rounded-sm" onClick={() => setDropdwon(!showDropdwon)}>
             <button className=" py-3 w-full text-left font-medium">Select</button>
             <PiCaretDownBold className="text-black text-xl" />
           </div>
